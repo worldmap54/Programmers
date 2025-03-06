@@ -20,7 +20,7 @@ def test_solution():
 
 ## 알고리즘 순서도
 ```mermaid
-flowchart TD
+graph TD
     A[시작] --> B[실수 flo 입력]
     B --> C{flo가 0 ≤ flo ≤ 100 조건 만족?}
     C -->|Yes| D[int(flo)로 정수 변환]
