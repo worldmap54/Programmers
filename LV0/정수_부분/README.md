@@ -20,12 +20,12 @@ def test_solution():
 
 ## 알고리즘 순서도
 ```mermaid
-graph TD
-    A[시작] --> B[실수 flo 입력]
-    B --> C{flo가 0 ≤ flo ≤ 100 조건 만족?}
-    C -->|Yes| D[int(flo)로 정수 변환]
-    C -->|No| E[예외 발생]
-    D --> F[정수 반환]
+graph LR
+    A[시작] --> B[실수 입력]
+    B --> C{조건 검사}
+    C -->|만족| D[정수 변환]
+    C -->|불만족| E[예외]
+    D --> F[결과 반환]
     E --> G[종료]
     F --> G
 ```

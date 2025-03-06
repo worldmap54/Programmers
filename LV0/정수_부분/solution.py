@@ -14,6 +14,8 @@ def solution(flo: float) -> int:
         >>> solution(69.32)
         69
     """
+
+    # 실수를 정수로 변환하여 반환
     return int(flo)
 
 
