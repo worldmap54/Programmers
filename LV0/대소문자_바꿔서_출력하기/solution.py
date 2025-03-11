@@ -12,7 +12,8 @@ def solution(s: str) -> str:
         >>> solution('aBcDeFg')
         'AbCdEfG'
     """
-    
+    # TODO:  
+ 
     return s.swapcase()
 
 
@@ -35,3 +36,4 @@ if __name__ == "__main__":
     # 입력 받기
     s = input().strip()
     print(solution(s)) 
+    test_solution()
